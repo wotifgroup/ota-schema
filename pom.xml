@@ -1,0 +1,82 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <parent>
+        <groupId>com.wotif</groupId>
+        <artifactId>wotif-standards</artifactId>
+        <version>2.0.31</version>
+    </parent>
+
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.wotif.schema</groupId>
+    <artifactId>schema-ota</artifactId>
+
+    <version>2007B-5-SNAPSHOT</version>
+
+    <packaging>jar</packaging>
+    <name>OTA Schema</name>
+
+    <description>OTA Schema XSD and JAXB classes</description>
+    <url>http://www.wotif.com</url>
+
+    <scm>
+        <connection>scm:svn:http://svn.office.lan/svn/schema-ota/trunk</connection>
+        <developerConnection>scm:svn:https://svn.office.lan/svn/schema-ota/trunk</developerConnection>
+      <url>scm:svn:https://svn.office.lan/svn-ad/tools/standards/tags/wotif-standards-2.0.21/schema-ota</url>
+  </scm>
+
+    <build>
+
+        <plugins>
+
+            <plugin>
+                <groupId>org.jvnet.jaxb2.maven2</groupId>
+                <artifactId>maven-jaxb2-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>generate</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <extension>true</extension>
+                    <readOnly>true</readOnly>
+                    <strict>true</strict>
+                    <schemaDirectory>${basedir}/src/main/resources/com/wotif/schema/ota</schemaDirectory>
+                </configuration>
+            </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-source-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <id>attach-sources</id>
+                        <goals>
+                            <goal>jar</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <dependencies>
+                    <dependency>
+                        <groupId>com.sun.xml.bind</groupId>
+                        <artifactId>jaxb-impl</artifactId>
+                        <version>2.1.10</version>
+                    </dependency>
+                </dependencies>
+            </plugin>
+
+        </plugins>
+
+    </build>
+
+    <dependencies>
+
+        <dependency>
+            <groupId>javax.xml.bind</groupId>
+            <artifactId>jaxb-api</artifactId>
+        </dependency>
+
+    </dependencies>
+
+</project>

@@ -1,0 +1,41 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified"
+    targetNamespace="http://www.opentravel.org/OTA/2003/05">
+
+    <!-- 
+    
+        This only includes the subset of messages that we (Wotif) use.
+    
+    -->
+
+    <xsd:include schemaLocation="_2007b/OTA_PingRQ.xsd" />
+    <xsd:include schemaLocation="_2007b/OTA_PingRS.xsd" />
+
+    <xsd:include schemaLocation="_2007b/OTA_CancelRQ.xsd" />
+    <xsd:include schemaLocation="_2007b/OTA_CancelRS.xsd" />
+
+    <xsd:include schemaLocation="_2007b/OTA_HotelAvailRQ.xsd" />
+    <xsd:include schemaLocation="_2007b/OTA_HotelAvailRS.xsd" />
+
+    <xsd:include schemaLocation="_2007b/OTA_HotelResRQ.xsd" />
+    <xsd:include schemaLocation="_2007b/OTA_HotelResRS.xsd" />
+
+    <xsd:include schemaLocation="_2007b/OTA_HotelDescriptiveContentNotifRQ.xsd" />
+    <xsd:include schemaLocation="_2007b/OTA_HotelDescriptiveContentNotifRS.xsd" />
+
+    <xsd:include schemaLocation="_2007b/OTA_HotelAvailNotifRQ.xsd" />
+    <xsd:include schemaLocation="_2007b/OTA_HotelAvailNotifRS.xsd" />
+
+    <xsd:include schemaLocation="_2007b/OTA_HotelRateAmountNotifRQ.xsd" />
+    <xsd:include schemaLocation="_2007b/OTA_HotelRateAmountNotifRS.xsd" />
+
+    <xsd:include schemaLocation="_2007b/OTA_HotelRatePlanNotifRQ.xsd" />
+    <xsd:include schemaLocation="_2007b/OTA_HotelRatePlanNotifRS.xsd" />
+
+    <xsd:include schemaLocation="_2007b/OTA_NotifReportRQ.xsd" />
+    <xsd:include schemaLocation="_2007b/OTA_NotifReportRS.xsd" />
+
+    <xsd:include schemaLocation="_2007b/OTA_HotelBookingRuleNotifRQ.xsd" />
+    <xsd:include schemaLocation="_2007b/OTA_HotelBookingRuleNotifRS.xsd" />
+
+</xsd:schema>
+
