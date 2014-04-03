@@ -136,7 +136,7 @@ import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
     "telephone",
     "refPoints",
     "codeRef",
-    "hotelReves",
+    "hotelRefs",
     "radius"
 })
 @XmlSeeAlso({
@@ -155,7 +155,7 @@ public class ItemSearchCriterionType {
     @XmlElement(name = "CodeRef")
     protected ItemSearchCriterionType.CodeRef codeRef;
     @XmlElement(name = "HotelRef")
-    protected List<ItemSearchCriterionType.HotelRef> hotelReves;
+    protected List<ItemSearchCriterionType.HotelRef> hotelRefs;
     @XmlElement(name = "Radius")
     protected ItemSearchCriterionType.Radius radius;
     @XmlAttribute(name = "ExactMatch")
@@ -291,18 +291,18 @@ public class ItemSearchCriterionType {
     }
 
     /**
-     * Gets the value of the hotelReves property.
+     * Gets the value of the hotelRefs property.
      * 
      * <p>
      * This accessor method returns a reference to the live list,
      * not a snapshot. Therefore any modification you make to the
      * returned list will be present inside the JAXB object.
-     * This is why there is not a <CODE>set</CODE> method for the hotelReves property.
+     * This is why there is not a <CODE>set</CODE> method for the hotelRefs property.
      * 
      * <p>
      * For example, to add a new item, do as follows:
      * <pre>
-     *    getHotelReves().add(newItem);
+     *    getHotelRefs().add(newItem);
      * </pre>
      * 
      * 
@@ -312,11 +312,11 @@ public class ItemSearchCriterionType {
      * 
      * 
      */
-    public List<ItemSearchCriterionType.HotelRef> getHotelReves() {
-        if (hotelReves == null) {
-            hotelReves = new ArrayList<ItemSearchCriterionType.HotelRef>();
+    public List<ItemSearchCriterionType.HotelRef> getHotelRefs() {
+        if (hotelRefs == null) {
+            hotelRefs = new ArrayList<ItemSearchCriterionType.HotelRef>();
         }
-        return this.hotelReves;
+        return this.hotelRefs;
     }
 
     /**

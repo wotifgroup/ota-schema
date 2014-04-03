@@ -1081,29 +1081,29 @@ public class VehicleReservationRQCoreType {
      */
     @XmlAccessorType(XmlAccessType.FIELD)
     @XmlType(name = "", propOrder = {
-        "specialEquipPreves",
+        "specialEquipPrefs",
         "charge"
     })
     public static class SpecialEquipPrefs {
 
         @XmlElement(name = "SpecialEquipPref", required = true)
-        protected List<VehicleReservationRQCoreType.SpecialEquipPrefs.SpecialEquipPref> specialEquipPreves;
+        protected List<VehicleReservationRQCoreType.SpecialEquipPrefs.SpecialEquipPref> specialEquipPrefs;
         @XmlElement(name = "Charge")
         protected VehicleChargeType charge;
 
         /**
-         * Gets the value of the specialEquipPreves property.
+         * Gets the value of the specialEquipPrefs property.
          * 
          * <p>
          * This accessor method returns a reference to the live list,
          * not a snapshot. Therefore any modification you make to the
          * returned list will be present inside the JAXB object.
-         * This is why there is not a <CODE>set</CODE> method for the specialEquipPreves property.
+         * This is why there is not a <CODE>set</CODE> method for the specialEquipPrefs property.
          * 
          * <p>
          * For example, to add a new item, do as follows:
          * <pre>
-         *    getSpecialEquipPreves().add(newItem);
+         *    getSpecialEquipPrefs().add(newItem);
          * </pre>
          * 
          * 
@@ -1113,11 +1113,11 @@ public class VehicleReservationRQCoreType {
          * 
          * 
          */
-        public List<VehicleReservationRQCoreType.SpecialEquipPrefs.SpecialEquipPref> getSpecialEquipPreves() {
-            if (specialEquipPreves == null) {
-                specialEquipPreves = new ArrayList<VehicleReservationRQCoreType.SpecialEquipPrefs.SpecialEquipPref>();
+        public List<VehicleReservationRQCoreType.SpecialEquipPrefs.SpecialEquipPref> getSpecialEquipPrefs() {
+            if (specialEquipPrefs == null) {
+                specialEquipPrefs = new ArrayList<VehicleReservationRQCoreType.SpecialEquipPrefs.SpecialEquipPref>();
             }
-            return this.specialEquipPreves;
+            return this.specialEquipPrefs;
         }
 
         /**

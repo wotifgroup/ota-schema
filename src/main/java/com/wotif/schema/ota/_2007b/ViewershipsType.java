@@ -1253,26 +1253,26 @@ public class ViewershipsType {
          */
         @XmlAccessorType(XmlAccessType.FIELD)
         @XmlType(name = "", propOrder = {
-            "profileReves"
+            "profileRefs"
         })
         public static class ProfileRefs {
 
             @XmlElement(name = "ProfileRef", required = true)
-            protected List<UniqueIDType> profileReves;
+            protected List<UniqueIDType> profileRefs;
 
             /**
-             * Gets the value of the profileReves property.
+             * Gets the value of the profileRefs property.
              * 
              * <p>
              * This accessor method returns a reference to the live list,
              * not a snapshot. Therefore any modification you make to the
              * returned list will be present inside the JAXB object.
-             * This is why there is not a <CODE>set</CODE> method for the profileReves property.
+             * This is why there is not a <CODE>set</CODE> method for the profileRefs property.
              * 
              * <p>
              * For example, to add a new item, do as follows:
              * <pre>
-             *    getProfileReves().add(newItem);
+             *    getProfileRefs().add(newItem);
              * </pre>
              * 
              * 
@@ -1282,11 +1282,11 @@ public class ViewershipsType {
              * 
              * 
              */
-            public List<UniqueIDType> getProfileReves() {
-                if (profileReves == null) {
-                    profileReves = new ArrayList<UniqueIDType>();
+            public List<UniqueIDType> getProfileRefs() {
+                if (profileRefs == null) {
+                    profileRefs = new ArrayList<UniqueIDType>();
                 }
-                return this.profileReves;
+                return this.profileRefs;
             }
 
         }

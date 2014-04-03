@@ -465,26 +465,26 @@ public class RatePlanCandidatesType {
          */
         @XmlAccessorType(XmlAccessType.FIELD)
         @XmlType(name = "", propOrder = {
-            "hotelReves"
+            "hotelRefs"
         })
         public static class HotelRefs {
 
             @XmlElement(name = "HotelRef", required = true)
-            protected List<RatePlanCandidatesType.RatePlanCandidate.HotelRefs.HotelRef> hotelReves;
+            protected List<RatePlanCandidatesType.RatePlanCandidate.HotelRefs.HotelRef> hotelRefs;
 
             /**
-             * Gets the value of the hotelReves property.
+             * Gets the value of the hotelRefs property.
              * 
              * <p>
              * This accessor method returns a reference to the live list,
              * not a snapshot. Therefore any modification you make to the
              * returned list will be present inside the JAXB object.
-             * This is why there is not a <CODE>set</CODE> method for the hotelReves property.
+             * This is why there is not a <CODE>set</CODE> method for the hotelRefs property.
              * 
              * <p>
              * For example, to add a new item, do as follows:
              * <pre>
-             *    getHotelReves().add(newItem);
+             *    getHotelRefs().add(newItem);
              * </pre>
              * 
              * 
@@ -494,11 +494,11 @@ public class RatePlanCandidatesType {
              * 
              * 
              */
-            public List<RatePlanCandidatesType.RatePlanCandidate.HotelRefs.HotelRef> getHotelReves() {
-                if (hotelReves == null) {
-                    hotelReves = new ArrayList<RatePlanCandidatesType.RatePlanCandidate.HotelRefs.HotelRef>();
+            public List<RatePlanCandidatesType.RatePlanCandidate.HotelRefs.HotelRef> getHotelRefs() {
+                if (hotelRefs == null) {
+                    hotelRefs = new ArrayList<RatePlanCandidatesType.RatePlanCandidate.HotelRefs.HotelRef>();
                 }
-                return this.hotelReves;
+                return this.hotelRefs;
             }
 
 

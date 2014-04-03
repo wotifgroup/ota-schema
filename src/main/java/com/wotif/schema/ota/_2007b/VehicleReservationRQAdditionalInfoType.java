@@ -102,11 +102,11 @@ import javax.xml.datatype.XMLGregorianCalendar;
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "VehicleReservationRQAdditionalInfoType", propOrder = {
-    "specialReqPreves",
+    "specialReqPrefs",
     "coveragePrefs",
     "offLocServices",
     "arrivalDetails",
-    "rentalPaymentPreves",
+    "rentalPaymentPrefs",
     "reference",
     "tourInfo",
     "writtenConfInst",
@@ -115,7 +115,7 @@ import javax.xml.datatype.XMLGregorianCalendar;
 public class VehicleReservationRQAdditionalInfoType {
 
     @XmlElement(name = "SpecialReqPref")
-    protected List<VehicleSpecialReqPrefType> specialReqPreves;
+    protected List<VehicleSpecialReqPrefType> specialReqPrefs;
     @XmlElement(name = "CoveragePrefs")
     protected VehicleReservationRQAdditionalInfoType.CoveragePrefs coveragePrefs;
     @XmlElement(name = "OffLocService")
@@ -123,7 +123,7 @@ public class VehicleReservationRQAdditionalInfoType {
     @XmlElement(name = "ArrivalDetails")
     protected VehicleArrivalDetailsType arrivalDetails;
     @XmlElement(name = "RentalPaymentPref")
-    protected List<VehicleReservationRQAdditionalInfoType.RentalPaymentPref> rentalPaymentPreves;
+    protected List<VehicleReservationRQAdditionalInfoType.RentalPaymentPref> rentalPaymentPrefs;
     @XmlElement(name = "Reference")
     protected VehicleReservationRQAdditionalInfoType.Reference reference;
     @XmlElement(name = "TourInfo")
@@ -144,18 +144,18 @@ public class VehicleReservationRQAdditionalInfoType {
     protected Boolean smokingAllowed;
 
     /**
-     * Gets the value of the specialReqPreves property.
+     * Gets the value of the specialReqPrefs property.
      * 
      * <p>
      * This accessor method returns a reference to the live list,
      * not a snapshot. Therefore any modification you make to the
      * returned list will be present inside the JAXB object.
-     * This is why there is not a <CODE>set</CODE> method for the specialReqPreves property.
+     * This is why there is not a <CODE>set</CODE> method for the specialReqPrefs property.
      * 
      * <p>
      * For example, to add a new item, do as follows:
      * <pre>
-     *    getSpecialReqPreves().add(newItem);
+     *    getSpecialReqPrefs().add(newItem);
      * </pre>
      * 
      * 
@@ -165,11 +165,11 @@ public class VehicleReservationRQAdditionalInfoType {
      * 
      * 
      */
-    public List<VehicleSpecialReqPrefType> getSpecialReqPreves() {
-        if (specialReqPreves == null) {
-            specialReqPreves = new ArrayList<VehicleSpecialReqPrefType>();
+    public List<VehicleSpecialReqPrefType> getSpecialReqPrefs() {
+        if (specialReqPrefs == null) {
+            specialReqPrefs = new ArrayList<VehicleSpecialReqPrefType>();
         }
-        return this.specialReqPreves;
+        return this.specialReqPrefs;
     }
 
     /**
@@ -250,18 +250,18 @@ public class VehicleReservationRQAdditionalInfoType {
     }
 
     /**
-     * Gets the value of the rentalPaymentPreves property.
+     * Gets the value of the rentalPaymentPrefs property.
      * 
      * <p>
      * This accessor method returns a reference to the live list,
      * not a snapshot. Therefore any modification you make to the
      * returned list will be present inside the JAXB object.
-     * This is why there is not a <CODE>set</CODE> method for the rentalPaymentPreves property.
+     * This is why there is not a <CODE>set</CODE> method for the rentalPaymentPrefs property.
      * 
      * <p>
      * For example, to add a new item, do as follows:
      * <pre>
-     *    getRentalPaymentPreves().add(newItem);
+     *    getRentalPaymentPrefs().add(newItem);
      * </pre>
      * 
      * 
@@ -271,11 +271,11 @@ public class VehicleReservationRQAdditionalInfoType {
      * 
      * 
      */
-    public List<VehicleReservationRQAdditionalInfoType.RentalPaymentPref> getRentalPaymentPreves() {
-        if (rentalPaymentPreves == null) {
-            rentalPaymentPreves = new ArrayList<VehicleReservationRQAdditionalInfoType.RentalPaymentPref>();
+    public List<VehicleReservationRQAdditionalInfoType.RentalPaymentPref> getRentalPaymentPrefs() {
+        if (rentalPaymentPrefs == null) {
+            rentalPaymentPrefs = new ArrayList<VehicleReservationRQAdditionalInfoType.RentalPaymentPref>();
         }
-        return this.rentalPaymentPreves;
+        return this.rentalPaymentPrefs;
     }
 
     /**
@@ -508,26 +508,26 @@ public class VehicleReservationRQAdditionalInfoType {
      */
     @XmlAccessorType(XmlAccessType.FIELD)
     @XmlType(name = "", propOrder = {
-        "coveragePreves"
+        "coveragePrefs"
     })
     public static class CoveragePrefs {
 
         @XmlElement(name = "CoveragePref", required = true)
-        protected List<VehicleReservationRQAdditionalInfoType.CoveragePrefs.CoveragePref> coveragePreves;
+        protected List<VehicleReservationRQAdditionalInfoType.CoveragePrefs.CoveragePref> coveragePrefs;
 
         /**
-         * Gets the value of the coveragePreves property.
+         * Gets the value of the coveragePrefs property.
          * 
          * <p>
          * This accessor method returns a reference to the live list,
          * not a snapshot. Therefore any modification you make to the
          * returned list will be present inside the JAXB object.
-         * This is why there is not a <CODE>set</CODE> method for the coveragePreves property.
+         * This is why there is not a <CODE>set</CODE> method for the coveragePrefs property.
          * 
          * <p>
          * For example, to add a new item, do as follows:
          * <pre>
-         *    getCoveragePreves().add(newItem);
+         *    getCoveragePrefs().add(newItem);
          * </pre>
          * 
          * 
@@ -537,11 +537,11 @@ public class VehicleReservationRQAdditionalInfoType {
          * 
          * 
          */
-        public List<VehicleReservationRQAdditionalInfoType.CoveragePrefs.CoveragePref> getCoveragePreves() {
-            if (coveragePreves == null) {
-                coveragePreves = new ArrayList<VehicleReservationRQAdditionalInfoType.CoveragePrefs.CoveragePref>();
+        public List<VehicleReservationRQAdditionalInfoType.CoveragePrefs.CoveragePref> getCoveragePrefs() {
+            if (coveragePrefs == null) {
+                coveragePrefs = new ArrayList<VehicleReservationRQAdditionalInfoType.CoveragePrefs.CoveragePref>();
             }
-            return this.coveragePreves;
+            return this.coveragePrefs;
         }
 
 

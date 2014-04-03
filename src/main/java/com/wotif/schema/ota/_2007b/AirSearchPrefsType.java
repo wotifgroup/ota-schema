@@ -106,27 +106,27 @@ import javax.xml.datatype.XMLGregorianCalendar;
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "AirSearchPrefsType", propOrder = {
-    "vendorPreves",
-    "flightTypePreves",
-    "fareRestrictPreves",
-    "equipPreves",
-    "cabinPreves",
-    "ticketDistribPreves"
+    "vendorPrefs",
+    "flightTypePrefs",
+    "fareRestrictPrefs",
+    "equipPrefs",
+    "cabinPrefs",
+    "ticketDistribPrefs"
 })
 public class AirSearchPrefsType {
 
     @XmlElement(name = "VendorPref")
-    protected List<AirSearchPrefsType.VendorPref> vendorPreves;
+    protected List<AirSearchPrefsType.VendorPref> vendorPrefs;
     @XmlElement(name = "FlightTypePref")
-    protected List<AirSearchPrefsType.FlightTypePref> flightTypePreves;
+    protected List<AirSearchPrefsType.FlightTypePref> flightTypePrefs;
     @XmlElement(name = "FareRestrictPref")
-    protected List<AirSearchPrefsType.FareRestrictPref> fareRestrictPreves;
+    protected List<AirSearchPrefsType.FareRestrictPref> fareRestrictPrefs;
     @XmlElement(name = "EquipPref")
-    protected List<EquipmentTypePref> equipPreves;
+    protected List<EquipmentTypePref> equipPrefs;
     @XmlElement(name = "CabinPref")
-    protected List<AirSearchPrefsType.CabinPref> cabinPreves;
+    protected List<AirSearchPrefsType.CabinPref> cabinPrefs;
     @XmlElement(name = "TicketDistribPref")
-    protected List<AirSearchPrefsType.TicketDistribPref> ticketDistribPreves;
+    protected List<AirSearchPrefsType.TicketDistribPref> ticketDistribPrefs;
     @XmlAttribute(name = "OnTimeRate")
     protected BigDecimal onTimeRate;
     @XmlAttribute(name = "ETicketDesired")
@@ -143,18 +143,18 @@ public class AirSearchPrefsType {
     protected Boolean smokingAllowed;
 
     /**
-     * Gets the value of the vendorPreves property.
+     * Gets the value of the vendorPrefs property.
      * 
      * <p>
      * This accessor method returns a reference to the live list,
      * not a snapshot. Therefore any modification you make to the
      * returned list will be present inside the JAXB object.
-     * This is why there is not a <CODE>set</CODE> method for the vendorPreves property.
+     * This is why there is not a <CODE>set</CODE> method for the vendorPrefs property.
      * 
      * <p>
      * For example, to add a new item, do as follows:
      * <pre>
-     *    getVendorPreves().add(newItem);
+     *    getVendorPrefs().add(newItem);
      * </pre>
      * 
      * 
@@ -164,26 +164,26 @@ public class AirSearchPrefsType {
      * 
      * 
      */
-    public List<AirSearchPrefsType.VendorPref> getVendorPreves() {
-        if (vendorPreves == null) {
-            vendorPreves = new ArrayList<AirSearchPrefsType.VendorPref>();
+    public List<AirSearchPrefsType.VendorPref> getVendorPrefs() {
+        if (vendorPrefs == null) {
+            vendorPrefs = new ArrayList<AirSearchPrefsType.VendorPref>();
         }
-        return this.vendorPreves;
+        return this.vendorPrefs;
     }
 
     /**
-     * Gets the value of the flightTypePreves property.
+     * Gets the value of the flightTypePrefs property.
      * 
      * <p>
      * This accessor method returns a reference to the live list,
      * not a snapshot. Therefore any modification you make to the
      * returned list will be present inside the JAXB object.
-     * This is why there is not a <CODE>set</CODE> method for the flightTypePreves property.
+     * This is why there is not a <CODE>set</CODE> method for the flightTypePrefs property.
      * 
      * <p>
      * For example, to add a new item, do as follows:
      * <pre>
-     *    getFlightTypePreves().add(newItem);
+     *    getFlightTypePrefs().add(newItem);
      * </pre>
      * 
      * 
@@ -193,26 +193,26 @@ public class AirSearchPrefsType {
      * 
      * 
      */
-    public List<AirSearchPrefsType.FlightTypePref> getFlightTypePreves() {
-        if (flightTypePreves == null) {
-            flightTypePreves = new ArrayList<AirSearchPrefsType.FlightTypePref>();
+    public List<AirSearchPrefsType.FlightTypePref> getFlightTypePrefs() {
+        if (flightTypePrefs == null) {
+            flightTypePrefs = new ArrayList<AirSearchPrefsType.FlightTypePref>();
         }
-        return this.flightTypePreves;
+        return this.flightTypePrefs;
     }
 
     /**
-     * Gets the value of the fareRestrictPreves property.
+     * Gets the value of the fareRestrictPrefs property.
      * 
      * <p>
      * This accessor method returns a reference to the live list,
      * not a snapshot. Therefore any modification you make to the
      * returned list will be present inside the JAXB object.
-     * This is why there is not a <CODE>set</CODE> method for the fareRestrictPreves property.
+     * This is why there is not a <CODE>set</CODE> method for the fareRestrictPrefs property.
      * 
      * <p>
      * For example, to add a new item, do as follows:
      * <pre>
-     *    getFareRestrictPreves().add(newItem);
+     *    getFareRestrictPrefs().add(newItem);
      * </pre>
      * 
      * 
@@ -222,26 +222,26 @@ public class AirSearchPrefsType {
      * 
      * 
      */
-    public List<AirSearchPrefsType.FareRestrictPref> getFareRestrictPreves() {
-        if (fareRestrictPreves == null) {
-            fareRestrictPreves = new ArrayList<AirSearchPrefsType.FareRestrictPref>();
+    public List<AirSearchPrefsType.FareRestrictPref> getFareRestrictPrefs() {
+        if (fareRestrictPrefs == null) {
+            fareRestrictPrefs = new ArrayList<AirSearchPrefsType.FareRestrictPref>();
         }
-        return this.fareRestrictPreves;
+        return this.fareRestrictPrefs;
     }
 
     /**
-     * Gets the value of the equipPreves property.
+     * Gets the value of the equipPrefs property.
      * 
      * <p>
      * This accessor method returns a reference to the live list,
      * not a snapshot. Therefore any modification you make to the
      * returned list will be present inside the JAXB object.
-     * This is why there is not a <CODE>set</CODE> method for the equipPreves property.
+     * This is why there is not a <CODE>set</CODE> method for the equipPrefs property.
      * 
      * <p>
      * For example, to add a new item, do as follows:
      * <pre>
-     *    getEquipPreves().add(newItem);
+     *    getEquipPrefs().add(newItem);
      * </pre>
      * 
      * 
@@ -251,26 +251,26 @@ public class AirSearchPrefsType {
      * 
      * 
      */
-    public List<EquipmentTypePref> getEquipPreves() {
-        if (equipPreves == null) {
-            equipPreves = new ArrayList<EquipmentTypePref>();
+    public List<EquipmentTypePref> getEquipPrefs() {
+        if (equipPrefs == null) {
+            equipPrefs = new ArrayList<EquipmentTypePref>();
         }
-        return this.equipPreves;
+        return this.equipPrefs;
     }
 
     /**
-     * Gets the value of the cabinPreves property.
+     * Gets the value of the cabinPrefs property.
      * 
      * <p>
      * This accessor method returns a reference to the live list,
      * not a snapshot. Therefore any modification you make to the
      * returned list will be present inside the JAXB object.
-     * This is why there is not a <CODE>set</CODE> method for the cabinPreves property.
+     * This is why there is not a <CODE>set</CODE> method for the cabinPrefs property.
      * 
      * <p>
      * For example, to add a new item, do as follows:
      * <pre>
-     *    getCabinPreves().add(newItem);
+     *    getCabinPrefs().add(newItem);
      * </pre>
      * 
      * 
@@ -280,26 +280,26 @@ public class AirSearchPrefsType {
      * 
      * 
      */
-    public List<AirSearchPrefsType.CabinPref> getCabinPreves() {
-        if (cabinPreves == null) {
-            cabinPreves = new ArrayList<AirSearchPrefsType.CabinPref>();
+    public List<AirSearchPrefsType.CabinPref> getCabinPrefs() {
+        if (cabinPrefs == null) {
+            cabinPrefs = new ArrayList<AirSearchPrefsType.CabinPref>();
         }
-        return this.cabinPreves;
+        return this.cabinPrefs;
     }
 
     /**
-     * Gets the value of the ticketDistribPreves property.
+     * Gets the value of the ticketDistribPrefs property.
      * 
      * <p>
      * This accessor method returns a reference to the live list,
      * not a snapshot. Therefore any modification you make to the
      * returned list will be present inside the JAXB object.
-     * This is why there is not a <CODE>set</CODE> method for the ticketDistribPreves property.
+     * This is why there is not a <CODE>set</CODE> method for the ticketDistribPrefs property.
      * 
      * <p>
      * For example, to add a new item, do as follows:
      * <pre>
-     *    getTicketDistribPreves().add(newItem);
+     *    getTicketDistribPrefs().add(newItem);
      * </pre>
      * 
      * 
@@ -309,11 +309,11 @@ public class AirSearchPrefsType {
      * 
      * 
      */
-    public List<AirSearchPrefsType.TicketDistribPref> getTicketDistribPreves() {
-        if (ticketDistribPreves == null) {
-            ticketDistribPreves = new ArrayList<AirSearchPrefsType.TicketDistribPref>();
+    public List<AirSearchPrefsType.TicketDistribPref> getTicketDistribPrefs() {
+        if (ticketDistribPrefs == null) {
+            ticketDistribPrefs = new ArrayList<AirSearchPrefsType.TicketDistribPref>();
         }
-        return this.ticketDistribPreves;
+        return this.ticketDistribPrefs;
     }
 
     /**

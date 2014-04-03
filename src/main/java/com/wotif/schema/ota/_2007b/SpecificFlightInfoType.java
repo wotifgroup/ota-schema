@@ -54,7 +54,7 @@ import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
 @XmlType(name = "SpecificFlightInfoType", propOrder = {
     "flightNumber",
     "airline",
-    "bookingClassPreves"
+    "bookingClassPrefs"
 })
 public class SpecificFlightInfoType {
 
@@ -63,7 +63,7 @@ public class SpecificFlightInfoType {
     @XmlElement(name = "Airline")
     protected CompanyNameType airline;
     @XmlElement(name = "BookingClassPref")
-    protected List<SpecificFlightInfoType.BookingClassPref> bookingClassPreves;
+    protected List<SpecificFlightInfoType.BookingClassPref> bookingClassPrefs;
 
     /**
      * Gets the value of the flightNumber property.
@@ -114,18 +114,18 @@ public class SpecificFlightInfoType {
     }
 
     /**
-     * Gets the value of the bookingClassPreves property.
+     * Gets the value of the bookingClassPrefs property.
      * 
      * <p>
      * This accessor method returns a reference to the live list,
      * not a snapshot. Therefore any modification you make to the
      * returned list will be present inside the JAXB object.
-     * This is why there is not a <CODE>set</CODE> method for the bookingClassPreves property.
+     * This is why there is not a <CODE>set</CODE> method for the bookingClassPrefs property.
      * 
      * <p>
      * For example, to add a new item, do as follows:
      * <pre>
-     *    getBookingClassPreves().add(newItem);
+     *    getBookingClassPrefs().add(newItem);
      * </pre>
      * 
      * 
@@ -135,11 +135,11 @@ public class SpecificFlightInfoType {
      * 
      * 
      */
-    public List<SpecificFlightInfoType.BookingClassPref> getBookingClassPreves() {
-        if (bookingClassPreves == null) {
-            bookingClassPreves = new ArrayList<SpecificFlightInfoType.BookingClassPref>();
+    public List<SpecificFlightInfoType.BookingClassPref> getBookingClassPrefs() {
+        if (bookingClassPrefs == null) {
+            bookingClassPrefs = new ArrayList<SpecificFlightInfoType.BookingClassPref>();
         }
-        return this.bookingClassPreves;
+        return this.bookingClassPrefs;
     }
 
 

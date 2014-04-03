@@ -490,26 +490,26 @@ public class OTAHotelRatePlanNotifRS {
      */
     @XmlAccessorType(XmlAccessType.FIELD)
     @XmlType(name = "", propOrder = {
-        "ratePlanCrossReves"
+        "ratePlanCrossRefs"
     })
     public static class RatePlanCrossRefs {
 
         @XmlElement(name = "RatePlanCrossRef", required = true)
-        protected List<OTAHotelRatePlanNotifRS.RatePlanCrossRefs.RatePlanCrossRef> ratePlanCrossReves;
+        protected List<OTAHotelRatePlanNotifRS.RatePlanCrossRefs.RatePlanCrossRef> ratePlanCrossRefs;
 
         /**
-         * Gets the value of the ratePlanCrossReves property.
+         * Gets the value of the ratePlanCrossRefs property.
          * 
          * <p>
          * This accessor method returns a reference to the live list,
          * not a snapshot. Therefore any modification you make to the
          * returned list will be present inside the JAXB object.
-         * This is why there is not a <CODE>set</CODE> method for the ratePlanCrossReves property.
+         * This is why there is not a <CODE>set</CODE> method for the ratePlanCrossRefs property.
          * 
          * <p>
          * For example, to add a new item, do as follows:
          * <pre>
-         *    getRatePlanCrossReves().add(newItem);
+         *    getRatePlanCrossRefs().add(newItem);
          * </pre>
          * 
          * 
@@ -519,11 +519,11 @@ public class OTAHotelRatePlanNotifRS {
          * 
          * 
          */
-        public List<OTAHotelRatePlanNotifRS.RatePlanCrossRefs.RatePlanCrossRef> getRatePlanCrossReves() {
-            if (ratePlanCrossReves == null) {
-                ratePlanCrossReves = new ArrayList<OTAHotelRatePlanNotifRS.RatePlanCrossRefs.RatePlanCrossRef>();
+        public List<OTAHotelRatePlanNotifRS.RatePlanCrossRefs.RatePlanCrossRef> getRatePlanCrossRefs() {
+            if (ratePlanCrossRefs == null) {
+                ratePlanCrossRefs = new ArrayList<OTAHotelRatePlanNotifRS.RatePlanCrossRefs.RatePlanCrossRef>();
             }
-            return this.ratePlanCrossReves;
+            return this.ratePlanCrossRefs;
         }
 
 

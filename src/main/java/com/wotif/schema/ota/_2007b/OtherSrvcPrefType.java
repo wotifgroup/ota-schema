@@ -51,10 +51,10 @@ import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "OtherSrvcPrefType", propOrder = {
     "otherSrvcName",
-    "vendorPreves",
-    "loyaltyPreves",
-    "paymentFormPreves",
-    "specRequestPreves",
+    "vendorPrefs",
+    "loyaltyPrefs",
+    "paymentFormPrefs",
+    "specRequestPrefs",
     "tpaExtensions"
 })
 public class OtherSrvcPrefType {
@@ -62,13 +62,13 @@ public class OtherSrvcPrefType {
     @XmlElement(name = "OtherSrvcName", required = true)
     protected String otherSrvcName;
     @XmlElement(name = "VendorPref")
-    protected List<CompanyNamePrefType> vendorPreves;
+    protected List<CompanyNamePrefType> vendorPrefs;
     @XmlElement(name = "LoyaltyPref")
-    protected List<LoyaltyPrefType> loyaltyPreves;
+    protected List<LoyaltyPrefType> loyaltyPrefs;
     @XmlElement(name = "PaymentFormPref")
-    protected List<PaymentFormPrefType> paymentFormPreves;
+    protected List<PaymentFormPrefType> paymentFormPrefs;
     @XmlElement(name = "SpecRequestPref")
-    protected List<SpecRequestPrefType> specRequestPreves;
+    protected List<SpecRequestPrefType> specRequestPrefs;
     @XmlElement(name = "TPA_Extensions")
     protected TPAExtensions tpaExtensions;
     @XmlAttribute(name = "TravelPurpose")
@@ -107,18 +107,18 @@ public class OtherSrvcPrefType {
     }
 
     /**
-     * Gets the value of the vendorPreves property.
+     * Gets the value of the vendorPrefs property.
      * 
      * <p>
      * This accessor method returns a reference to the live list,
      * not a snapshot. Therefore any modification you make to the
      * returned list will be present inside the JAXB object.
-     * This is why there is not a <CODE>set</CODE> method for the vendorPreves property.
+     * This is why there is not a <CODE>set</CODE> method for the vendorPrefs property.
      * 
      * <p>
      * For example, to add a new item, do as follows:
      * <pre>
-     *    getVendorPreves().add(newItem);
+     *    getVendorPrefs().add(newItem);
      * </pre>
      * 
      * 
@@ -128,26 +128,26 @@ public class OtherSrvcPrefType {
      * 
      * 
      */
-    public List<CompanyNamePrefType> getVendorPreves() {
-        if (vendorPreves == null) {
-            vendorPreves = new ArrayList<CompanyNamePrefType>();
+    public List<CompanyNamePrefType> getVendorPrefs() {
+        if (vendorPrefs == null) {
+            vendorPrefs = new ArrayList<CompanyNamePrefType>();
         }
-        return this.vendorPreves;
+        return this.vendorPrefs;
     }
 
     /**
-     * Gets the value of the loyaltyPreves property.
+     * Gets the value of the loyaltyPrefs property.
      * 
      * <p>
      * This accessor method returns a reference to the live list,
      * not a snapshot. Therefore any modification you make to the
      * returned list will be present inside the JAXB object.
-     * This is why there is not a <CODE>set</CODE> method for the loyaltyPreves property.
+     * This is why there is not a <CODE>set</CODE> method for the loyaltyPrefs property.
      * 
      * <p>
      * For example, to add a new item, do as follows:
      * <pre>
-     *    getLoyaltyPreves().add(newItem);
+     *    getLoyaltyPrefs().add(newItem);
      * </pre>
      * 
      * 
@@ -157,26 +157,26 @@ public class OtherSrvcPrefType {
      * 
      * 
      */
-    public List<LoyaltyPrefType> getLoyaltyPreves() {
-        if (loyaltyPreves == null) {
-            loyaltyPreves = new ArrayList<LoyaltyPrefType>();
+    public List<LoyaltyPrefType> getLoyaltyPrefs() {
+        if (loyaltyPrefs == null) {
+            loyaltyPrefs = new ArrayList<LoyaltyPrefType>();
         }
-        return this.loyaltyPreves;
+        return this.loyaltyPrefs;
     }
 
     /**
-     * Gets the value of the paymentFormPreves property.
+     * Gets the value of the paymentFormPrefs property.
      * 
      * <p>
      * This accessor method returns a reference to the live list,
      * not a snapshot. Therefore any modification you make to the
      * returned list will be present inside the JAXB object.
-     * This is why there is not a <CODE>set</CODE> method for the paymentFormPreves property.
+     * This is why there is not a <CODE>set</CODE> method for the paymentFormPrefs property.
      * 
      * <p>
      * For example, to add a new item, do as follows:
      * <pre>
-     *    getPaymentFormPreves().add(newItem);
+     *    getPaymentFormPrefs().add(newItem);
      * </pre>
      * 
      * 
@@ -186,26 +186,26 @@ public class OtherSrvcPrefType {
      * 
      * 
      */
-    public List<PaymentFormPrefType> getPaymentFormPreves() {
-        if (paymentFormPreves == null) {
-            paymentFormPreves = new ArrayList<PaymentFormPrefType>();
+    public List<PaymentFormPrefType> getPaymentFormPrefs() {
+        if (paymentFormPrefs == null) {
+            paymentFormPrefs = new ArrayList<PaymentFormPrefType>();
         }
-        return this.paymentFormPreves;
+        return this.paymentFormPrefs;
     }
 
     /**
-     * Gets the value of the specRequestPreves property.
+     * Gets the value of the specRequestPrefs property.
      * 
      * <p>
      * This accessor method returns a reference to the live list,
      * not a snapshot. Therefore any modification you make to the
      * returned list will be present inside the JAXB object.
-     * This is why there is not a <CODE>set</CODE> method for the specRequestPreves property.
+     * This is why there is not a <CODE>set</CODE> method for the specRequestPrefs property.
      * 
      * <p>
      * For example, to add a new item, do as follows:
      * <pre>
-     *    getSpecRequestPreves().add(newItem);
+     *    getSpecRequestPrefs().add(newItem);
      * </pre>
      * 
      * 
@@ -215,11 +215,11 @@ public class OtherSrvcPrefType {
      * 
      * 
      */
-    public List<SpecRequestPrefType> getSpecRequestPreves() {
-        if (specRequestPreves == null) {
-            specRequestPreves = new ArrayList<SpecRequestPrefType>();
+    public List<SpecRequestPrefType> getSpecRequestPrefs() {
+        if (specRequestPrefs == null) {
+            specRequestPrefs = new ArrayList<SpecRequestPrefType>();
         }
-        return this.specRequestPreves;
+        return this.specRequestPrefs;
     }
 
     /**

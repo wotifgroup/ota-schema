@@ -61,52 +61,52 @@ import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "CommonPrefType", propOrder = {
-    "namePreves",
-    "phonePreves",
-    "addressPreves",
-    "paymentFormPreves",
-    "interestPreves",
-    "insurancePreves",
-    "seatingPreves",
-    "ticketDistribPreves",
-    "mediaEntertainPreves",
-    "petInfoPreves",
-    "mealPreves",
-    "loyaltyPreves",
-    "specRequestPreves",
-    "relatedTravelerPreves",
+    "namePrefs",
+    "phonePrefs",
+    "addressPrefs",
+    "paymentFormPrefs",
+    "interestPrefs",
+    "insurancePrefs",
+    "seatingPrefs",
+    "ticketDistribPrefs",
+    "mediaEntertainPrefs",
+    "petInfoPrefs",
+    "mealPrefs",
+    "loyaltyPrefs",
+    "specRequestPrefs",
+    "relatedTravelerPrefs",
     "tpaExtensions"
 })
 public class CommonPrefType {
 
     @XmlElement(name = "NamePref")
-    protected List<NamePrefType> namePreves;
+    protected List<NamePrefType> namePrefs;
     @XmlElement(name = "PhonePref")
-    protected List<PhonePrefType> phonePreves;
+    protected List<PhonePrefType> phonePrefs;
     @XmlElement(name = "AddressPref")
-    protected List<AddressPrefType> addressPreves;
+    protected List<AddressPrefType> addressPrefs;
     @XmlElement(name = "PaymentFormPref")
-    protected List<PaymentFormPrefType> paymentFormPreves;
+    protected List<PaymentFormPrefType> paymentFormPrefs;
     @XmlElement(name = "InterestPref")
-    protected List<InterestPrefType> interestPreves;
+    protected List<InterestPrefType> interestPrefs;
     @XmlElement(name = "InsurancePref")
-    protected List<InsurancePrefType> insurancePreves;
+    protected List<InsurancePrefType> insurancePrefs;
     @XmlElement(name = "SeatingPref")
-    protected List<SeatingPrefType> seatingPreves;
+    protected List<SeatingPrefType> seatingPrefs;
     @XmlElement(name = "TicketDistribPref")
-    protected List<TicketDistribPrefType> ticketDistribPreves;
+    protected List<TicketDistribPrefType> ticketDistribPrefs;
     @XmlElement(name = "MediaEntertainPref")
-    protected List<MediaEntertainPrefType> mediaEntertainPreves;
+    protected List<MediaEntertainPrefType> mediaEntertainPrefs;
     @XmlElement(name = "PetInfoPref")
-    protected List<PetInfoPrefType> petInfoPreves;
+    protected List<PetInfoPrefType> petInfoPrefs;
     @XmlElement(name = "MealPref")
-    protected List<MealPrefType> mealPreves;
+    protected List<MealPrefType> mealPrefs;
     @XmlElement(name = "LoyaltyPref")
-    protected List<LoyaltyPrefType> loyaltyPreves;
+    protected List<LoyaltyPrefType> loyaltyPrefs;
     @XmlElement(name = "SpecRequestPref")
-    protected List<SpecRequestPrefType> specRequestPreves;
+    protected List<SpecRequestPrefType> specRequestPrefs;
     @XmlElement(name = "RelatedTravelerPref")
-    protected List<RelatedTravelerPrefType> relatedTravelerPreves;
+    protected List<RelatedTravelerPrefType> relatedTravelerPrefs;
     @XmlElement(name = "TPA_Extensions")
     protected TPAExtensions tpaExtensions;
     @XmlAttribute(name = "ShareSynchInd")
@@ -127,18 +127,18 @@ public class CommonPrefType {
     protected Boolean smokingAllowed;
 
     /**
-     * Gets the value of the namePreves property.
+     * Gets the value of the namePrefs property.
      * 
      * <p>
      * This accessor method returns a reference to the live list,
      * not a snapshot. Therefore any modification you make to the
      * returned list will be present inside the JAXB object.
-     * This is why there is not a <CODE>set</CODE> method for the namePreves property.
+     * This is why there is not a <CODE>set</CODE> method for the namePrefs property.
      * 
      * <p>
      * For example, to add a new item, do as follows:
      * <pre>
-     *    getNamePreves().add(newItem);
+     *    getNamePrefs().add(newItem);
      * </pre>
      * 
      * 
@@ -148,26 +148,26 @@ public class CommonPrefType {
      * 
      * 
      */
-    public List<NamePrefType> getNamePreves() {
-        if (namePreves == null) {
-            namePreves = new ArrayList<NamePrefType>();
+    public List<NamePrefType> getNamePrefs() {
+        if (namePrefs == null) {
+            namePrefs = new ArrayList<NamePrefType>();
         }
-        return this.namePreves;
+        return this.namePrefs;
     }
 
     /**
-     * Gets the value of the phonePreves property.
+     * Gets the value of the phonePrefs property.
      * 
      * <p>
      * This accessor method returns a reference to the live list,
      * not a snapshot. Therefore any modification you make to the
      * returned list will be present inside the JAXB object.
-     * This is why there is not a <CODE>set</CODE> method for the phonePreves property.
+     * This is why there is not a <CODE>set</CODE> method for the phonePrefs property.
      * 
      * <p>
      * For example, to add a new item, do as follows:
      * <pre>
-     *    getPhonePreves().add(newItem);
+     *    getPhonePrefs().add(newItem);
      * </pre>
      * 
      * 
@@ -177,26 +177,26 @@ public class CommonPrefType {
      * 
      * 
      */
-    public List<PhonePrefType> getPhonePreves() {
-        if (phonePreves == null) {
-            phonePreves = new ArrayList<PhonePrefType>();
+    public List<PhonePrefType> getPhonePrefs() {
+        if (phonePrefs == null) {
+            phonePrefs = new ArrayList<PhonePrefType>();
         }
-        return this.phonePreves;
+        return this.phonePrefs;
     }
 
     /**
-     * Gets the value of the addressPreves property.
+     * Gets the value of the addressPrefs property.
      * 
      * <p>
      * This accessor method returns a reference to the live list,
      * not a snapshot. Therefore any modification you make to the
      * returned list will be present inside the JAXB object.
-     * This is why there is not a <CODE>set</CODE> method for the addressPreves property.
+     * This is why there is not a <CODE>set</CODE> method for the addressPrefs property.
      * 
      * <p>
      * For example, to add a new item, do as follows:
      * <pre>
-     *    getAddressPreves().add(newItem);
+     *    getAddressPrefs().add(newItem);
      * </pre>
      * 
      * 
@@ -206,26 +206,26 @@ public class CommonPrefType {
      * 
      * 
      */
-    public List<AddressPrefType> getAddressPreves() {
-        if (addressPreves == null) {
-            addressPreves = new ArrayList<AddressPrefType>();
+    public List<AddressPrefType> getAddressPrefs() {
+        if (addressPrefs == null) {
+            addressPrefs = new ArrayList<AddressPrefType>();
         }
-        return this.addressPreves;
+        return this.addressPrefs;
     }
 
     /**
-     * Gets the value of the paymentFormPreves property.
+     * Gets the value of the paymentFormPrefs property.
      * 
      * <p>
      * This accessor method returns a reference to the live list,
      * not a snapshot. Therefore any modification you make to the
      * returned list will be present inside the JAXB object.
-     * This is why there is not a <CODE>set</CODE> method for the paymentFormPreves property.
+     * This is why there is not a <CODE>set</CODE> method for the paymentFormPrefs property.
      * 
      * <p>
      * For example, to add a new item, do as follows:
      * <pre>
-     *    getPaymentFormPreves().add(newItem);
+     *    getPaymentFormPrefs().add(newItem);
      * </pre>
      * 
      * 
@@ -235,26 +235,26 @@ public class CommonPrefType {
      * 
      * 
      */
-    public List<PaymentFormPrefType> getPaymentFormPreves() {
-        if (paymentFormPreves == null) {
-            paymentFormPreves = new ArrayList<PaymentFormPrefType>();
+    public List<PaymentFormPrefType> getPaymentFormPrefs() {
+        if (paymentFormPrefs == null) {
+            paymentFormPrefs = new ArrayList<PaymentFormPrefType>();
         }
-        return this.paymentFormPreves;
+        return this.paymentFormPrefs;
     }
 
     /**
-     * Gets the value of the interestPreves property.
+     * Gets the value of the interestPrefs property.
      * 
      * <p>
      * This accessor method returns a reference to the live list,
      * not a snapshot. Therefore any modification you make to the
      * returned list will be present inside the JAXB object.
-     * This is why there is not a <CODE>set</CODE> method for the interestPreves property.
+     * This is why there is not a <CODE>set</CODE> method for the interestPrefs property.
      * 
      * <p>
      * For example, to add a new item, do as follows:
      * <pre>
-     *    getInterestPreves().add(newItem);
+     *    getInterestPrefs().add(newItem);
      * </pre>
      * 
      * 
@@ -264,26 +264,26 @@ public class CommonPrefType {
      * 
      * 
      */
-    public List<InterestPrefType> getInterestPreves() {
-        if (interestPreves == null) {
-            interestPreves = new ArrayList<InterestPrefType>();
+    public List<InterestPrefType> getInterestPrefs() {
+        if (interestPrefs == null) {
+            interestPrefs = new ArrayList<InterestPrefType>();
         }
-        return this.interestPreves;
+        return this.interestPrefs;
     }
 
     /**
-     * Gets the value of the insurancePreves property.
+     * Gets the value of the insurancePrefs property.
      * 
      * <p>
      * This accessor method returns a reference to the live list,
      * not a snapshot. Therefore any modification you make to the
      * returned list will be present inside the JAXB object.
-     * This is why there is not a <CODE>set</CODE> method for the insurancePreves property.
+     * This is why there is not a <CODE>set</CODE> method for the insurancePrefs property.
      * 
      * <p>
      * For example, to add a new item, do as follows:
      * <pre>
-     *    getInsurancePreves().add(newItem);
+     *    getInsurancePrefs().add(newItem);
      * </pre>
      * 
      * 
@@ -293,26 +293,26 @@ public class CommonPrefType {
      * 
      * 
      */
-    public List<InsurancePrefType> getInsurancePreves() {
-        if (insurancePreves == null) {
-            insurancePreves = new ArrayList<InsurancePrefType>();
+    public List<InsurancePrefType> getInsurancePrefs() {
+        if (insurancePrefs == null) {
+            insurancePrefs = new ArrayList<InsurancePrefType>();
         }
-        return this.insurancePreves;
+        return this.insurancePrefs;
     }
 
     /**
-     * Gets the value of the seatingPreves property.
+     * Gets the value of the seatingPrefs property.
      * 
      * <p>
      * This accessor method returns a reference to the live list,
      * not a snapshot. Therefore any modification you make to the
      * returned list will be present inside the JAXB object.
-     * This is why there is not a <CODE>set</CODE> method for the seatingPreves property.
+     * This is why there is not a <CODE>set</CODE> method for the seatingPrefs property.
      * 
      * <p>
      * For example, to add a new item, do as follows:
      * <pre>
-     *    getSeatingPreves().add(newItem);
+     *    getSeatingPrefs().add(newItem);
      * </pre>
      * 
      * 
@@ -322,26 +322,26 @@ public class CommonPrefType {
      * 
      * 
      */
-    public List<SeatingPrefType> getSeatingPreves() {
-        if (seatingPreves == null) {
-            seatingPreves = new ArrayList<SeatingPrefType>();
+    public List<SeatingPrefType> getSeatingPrefs() {
+        if (seatingPrefs == null) {
+            seatingPrefs = new ArrayList<SeatingPrefType>();
         }
-        return this.seatingPreves;
+        return this.seatingPrefs;
     }
 
     /**
-     * Gets the value of the ticketDistribPreves property.
+     * Gets the value of the ticketDistribPrefs property.
      * 
      * <p>
      * This accessor method returns a reference to the live list,
      * not a snapshot. Therefore any modification you make to the
      * returned list will be present inside the JAXB object.
-     * This is why there is not a <CODE>set</CODE> method for the ticketDistribPreves property.
+     * This is why there is not a <CODE>set</CODE> method for the ticketDistribPrefs property.
      * 
      * <p>
      * For example, to add a new item, do as follows:
      * <pre>
-     *    getTicketDistribPreves().add(newItem);
+     *    getTicketDistribPrefs().add(newItem);
      * </pre>
      * 
      * 
@@ -351,26 +351,26 @@ public class CommonPrefType {
      * 
      * 
      */
-    public List<TicketDistribPrefType> getTicketDistribPreves() {
-        if (ticketDistribPreves == null) {
-            ticketDistribPreves = new ArrayList<TicketDistribPrefType>();
+    public List<TicketDistribPrefType> getTicketDistribPrefs() {
+        if (ticketDistribPrefs == null) {
+            ticketDistribPrefs = new ArrayList<TicketDistribPrefType>();
         }
-        return this.ticketDistribPreves;
+        return this.ticketDistribPrefs;
     }
 
     /**
-     * Gets the value of the mediaEntertainPreves property.
+     * Gets the value of the mediaEntertainPrefs property.
      * 
      * <p>
      * This accessor method returns a reference to the live list,
      * not a snapshot. Therefore any modification you make to the
      * returned list will be present inside the JAXB object.
-     * This is why there is not a <CODE>set</CODE> method for the mediaEntertainPreves property.
+     * This is why there is not a <CODE>set</CODE> method for the mediaEntertainPrefs property.
      * 
      * <p>
      * For example, to add a new item, do as follows:
      * <pre>
-     *    getMediaEntertainPreves().add(newItem);
+     *    getMediaEntertainPrefs().add(newItem);
      * </pre>
      * 
      * 
@@ -380,26 +380,26 @@ public class CommonPrefType {
      * 
      * 
      */
-    public List<MediaEntertainPrefType> getMediaEntertainPreves() {
-        if (mediaEntertainPreves == null) {
-            mediaEntertainPreves = new ArrayList<MediaEntertainPrefType>();
+    public List<MediaEntertainPrefType> getMediaEntertainPrefs() {
+        if (mediaEntertainPrefs == null) {
+            mediaEntertainPrefs = new ArrayList<MediaEntertainPrefType>();
         }
-        return this.mediaEntertainPreves;
+        return this.mediaEntertainPrefs;
     }
 
     /**
-     * Gets the value of the petInfoPreves property.
+     * Gets the value of the petInfoPrefs property.
      * 
      * <p>
      * This accessor method returns a reference to the live list,
      * not a snapshot. Therefore any modification you make to the
      * returned list will be present inside the JAXB object.
-     * This is why there is not a <CODE>set</CODE> method for the petInfoPreves property.
+     * This is why there is not a <CODE>set</CODE> method for the petInfoPrefs property.
      * 
      * <p>
      * For example, to add a new item, do as follows:
      * <pre>
-     *    getPetInfoPreves().add(newItem);
+     *    getPetInfoPrefs().add(newItem);
      * </pre>
      * 
      * 
@@ -409,26 +409,26 @@ public class CommonPrefType {
      * 
      * 
      */
-    public List<PetInfoPrefType> getPetInfoPreves() {
-        if (petInfoPreves == null) {
-            petInfoPreves = new ArrayList<PetInfoPrefType>();
+    public List<PetInfoPrefType> getPetInfoPrefs() {
+        if (petInfoPrefs == null) {
+            petInfoPrefs = new ArrayList<PetInfoPrefType>();
         }
-        return this.petInfoPreves;
+        return this.petInfoPrefs;
     }
 
     /**
-     * Gets the value of the mealPreves property.
+     * Gets the value of the mealPrefs property.
      * 
      * <p>
      * This accessor method returns a reference to the live list,
      * not a snapshot. Therefore any modification you make to the
      * returned list will be present inside the JAXB object.
-     * This is why there is not a <CODE>set</CODE> method for the mealPreves property.
+     * This is why there is not a <CODE>set</CODE> method for the mealPrefs property.
      * 
      * <p>
      * For example, to add a new item, do as follows:
      * <pre>
-     *    getMealPreves().add(newItem);
+     *    getMealPrefs().add(newItem);
      * </pre>
      * 
      * 
@@ -438,26 +438,26 @@ public class CommonPrefType {
      * 
      * 
      */
-    public List<MealPrefType> getMealPreves() {
-        if (mealPreves == null) {
-            mealPreves = new ArrayList<MealPrefType>();
+    public List<MealPrefType> getMealPrefs() {
+        if (mealPrefs == null) {
+            mealPrefs = new ArrayList<MealPrefType>();
         }
-        return this.mealPreves;
+        return this.mealPrefs;
     }
 
     /**
-     * Gets the value of the loyaltyPreves property.
+     * Gets the value of the loyaltyPrefs property.
      * 
      * <p>
      * This accessor method returns a reference to the live list,
      * not a snapshot. Therefore any modification you make to the
      * returned list will be present inside the JAXB object.
-     * This is why there is not a <CODE>set</CODE> method for the loyaltyPreves property.
+     * This is why there is not a <CODE>set</CODE> method for the loyaltyPrefs property.
      * 
      * <p>
      * For example, to add a new item, do as follows:
      * <pre>
-     *    getLoyaltyPreves().add(newItem);
+     *    getLoyaltyPrefs().add(newItem);
      * </pre>
      * 
      * 
@@ -467,26 +467,26 @@ public class CommonPrefType {
      * 
      * 
      */
-    public List<LoyaltyPrefType> getLoyaltyPreves() {
-        if (loyaltyPreves == null) {
-            loyaltyPreves = new ArrayList<LoyaltyPrefType>();
+    public List<LoyaltyPrefType> getLoyaltyPrefs() {
+        if (loyaltyPrefs == null) {
+            loyaltyPrefs = new ArrayList<LoyaltyPrefType>();
         }
-        return this.loyaltyPreves;
+        return this.loyaltyPrefs;
     }
 
     /**
-     * Gets the value of the specRequestPreves property.
+     * Gets the value of the specRequestPrefs property.
      * 
      * <p>
      * This accessor method returns a reference to the live list,
      * not a snapshot. Therefore any modification you make to the
      * returned list will be present inside the JAXB object.
-     * This is why there is not a <CODE>set</CODE> method for the specRequestPreves property.
+     * This is why there is not a <CODE>set</CODE> method for the specRequestPrefs property.
      * 
      * <p>
      * For example, to add a new item, do as follows:
      * <pre>
-     *    getSpecRequestPreves().add(newItem);
+     *    getSpecRequestPrefs().add(newItem);
      * </pre>
      * 
      * 
@@ -496,26 +496,26 @@ public class CommonPrefType {
      * 
      * 
      */
-    public List<SpecRequestPrefType> getSpecRequestPreves() {
-        if (specRequestPreves == null) {
-            specRequestPreves = new ArrayList<SpecRequestPrefType>();
+    public List<SpecRequestPrefType> getSpecRequestPrefs() {
+        if (specRequestPrefs == null) {
+            specRequestPrefs = new ArrayList<SpecRequestPrefType>();
         }
-        return this.specRequestPreves;
+        return this.specRequestPrefs;
     }
 
     /**
-     * Gets the value of the relatedTravelerPreves property.
+     * Gets the value of the relatedTravelerPrefs property.
      * 
      * <p>
      * This accessor method returns a reference to the live list,
      * not a snapshot. Therefore any modification you make to the
      * returned list will be present inside the JAXB object.
-     * This is why there is not a <CODE>set</CODE> method for the relatedTravelerPreves property.
+     * This is why there is not a <CODE>set</CODE> method for the relatedTravelerPrefs property.
      * 
      * <p>
      * For example, to add a new item, do as follows:
      * <pre>
-     *    getRelatedTravelerPreves().add(newItem);
+     *    getRelatedTravelerPrefs().add(newItem);
      * </pre>
      * 
      * 
@@ -525,11 +525,11 @@ public class CommonPrefType {
      * 
      * 
      */
-    public List<RelatedTravelerPrefType> getRelatedTravelerPreves() {
-        if (relatedTravelerPreves == null) {
-            relatedTravelerPreves = new ArrayList<RelatedTravelerPrefType>();
+    public List<RelatedTravelerPrefType> getRelatedTravelerPrefs() {
+        if (relatedTravelerPrefs == null) {
+            relatedTravelerPrefs = new ArrayList<RelatedTravelerPrefType>();
         }
-        return this.relatedTravelerPreves;
+        return this.relatedTravelerPrefs;
     }
 
     /**
