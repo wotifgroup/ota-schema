@@ -10,7 +10,7 @@
     <groupId>com.wotif.schema</groupId>
     <artifactId>ota-schema</artifactId>
 
-    <version>2014.04.03</version>
+    <version>2014.04.04-SNAPSHOT</version>
 
     <packaging>jar</packaging>
     <name>OTA Schema</name>
