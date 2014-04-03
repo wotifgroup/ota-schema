@@ -1,0 +1,8 @@
+# List all the classes used for mapping response here. Only root elements need to be specified
+
+AvailabilityRequestEnvelope
+AvailabilityResponseEnvelope
+PingRequestEnvelope
+PingResponseEnvelope
+ReservationRequestEnvelope
+ReservationResponseEnvelope
