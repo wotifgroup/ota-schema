@@ -15,8 +15,6 @@ import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlAnyElement;
 import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.XmlType;
-import org.w3c.dom.Element;
-
 
 /**
  * Allows extensions 
@@ -42,41 +40,41 @@ import org.w3c.dom.Element;
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "TPA_ExtensionsType", propOrder = {
-    "anies"
+    "items"
 })
 @XmlRootElement(name = "TPA_Extensions")
 public class TPAExtensions {
 
     @XmlAnyElement
-    protected List<Element> anies;
+    protected List<Object> items;
 
     /**
-     * Gets the value of the anies property.
+     * Gets the value of the items property.
      * 
      * <p>
      * This accessor method returns a reference to the live list,
      * not a snapshot. Therefore any modification you make to the
      * returned list will be present inside the JAXB object.
-     * This is why there is not a <CODE>set</CODE> method for the anies property.
+     * This is why there is not a <CODE>set</CODE> method for the items property.
      * 
      * <p>
      * For example, to add a new item, do as follows:
      * <pre>
-     *    getAnies().add(newItem);
+     *    getItems().add(newItem);
      * </pre>
      * 
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link Element }
+     * {@link Object }
      * 
      * 
      */
-    public List<Element> getAnies() {
-        if (anies == null) {
-            anies = new ArrayList<Element>();
+    public List<Object> getItems() {
+        if (items == null) {
+            items = new ArrayList<Object>();
         }
-        return this.anies;
+        return this.items;
     }
 
 }
