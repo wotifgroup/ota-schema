@@ -894,26 +894,26 @@ public class OTAHotelAvailRS {
      */
     @XmlAccessorType(XmlAccessType.FIELD)
     @XmlType(name = "", propOrder = {
-        "hotelStaies"
+        "hotelStays"
     })
     public static class HotelStays {
 
         @XmlElement(name = "HotelStay", required = true)
-        protected List<OTAHotelAvailRS.HotelStays.HotelStay> hotelStaies;
+        protected List<OTAHotelAvailRS.HotelStays.HotelStay> hotelStays;
 
         /**
-         * Gets the value of the hotelStaies property.
+         * Gets the value of the hotelStays property.
          * 
          * <p>
          * This accessor method returns a reference to the live list,
          * not a snapshot. Therefore any modification you make to the
          * returned list will be present inside the JAXB object.
-         * This is why there is not a <CODE>set</CODE> method for the hotelStaies property.
+         * This is why there is not a <CODE>set</CODE> method for the hotelStays property.
          * 
          * <p>
          * For example, to add a new item, do as follows:
          * <pre>
-         *    getHotelStaies().add(newItem);
+         *    getHotelStays().add(newItem);
          * </pre>
          * 
          * 
@@ -923,11 +923,11 @@ public class OTAHotelAvailRS {
          * 
          * 
          */
-        public List<OTAHotelAvailRS.HotelStays.HotelStay> getHotelStaies() {
-            if (hotelStaies == null) {
-                hotelStaies = new ArrayList<OTAHotelAvailRS.HotelStays.HotelStay>();
+        public List<OTAHotelAvailRS.HotelStays.HotelStay> getHotelStays() {
+            if (hotelStays == null) {
+                hotelStays = new ArrayList<OTAHotelAvailRS.HotelStays.HotelStay>();
             }
-            return this.hotelStaies;
+            return this.hotelStays;
         }
 
 
@@ -1435,28 +1435,28 @@ public class OTAHotelAvailRS {
      */
     @XmlAccessorType(XmlAccessType.FIELD)
     @XmlType(name = "", propOrder = {
-        "roomStaies"
+        "roomStays"
     })
     public static class RoomStays {
 
         @XmlElement(name = "RoomStay", required = true)
-        protected List<OTAHotelAvailRS.RoomStays.RoomStay> roomStaies;
+        protected List<OTAHotelAvailRS.RoomStays.RoomStay> roomStays;
         @XmlAttribute(name = "MoreIndicator")
         protected String moreIndicator;
 
         /**
-         * Gets the value of the roomStaies property.
+         * Gets the value of the roomStays property.
          * 
          * <p>
          * This accessor method returns a reference to the live list,
          * not a snapshot. Therefore any modification you make to the
          * returned list will be present inside the JAXB object.
-         * This is why there is not a <CODE>set</CODE> method for the roomStaies property.
+         * This is why there is not a <CODE>set</CODE> method for the roomStays property.
          * 
          * <p>
          * For example, to add a new item, do as follows:
          * <pre>
-         *    getRoomStaies().add(newItem);
+         *    getRoomStays().add(newItem);
          * </pre>
          * 
          * 
@@ -1466,11 +1466,11 @@ public class OTAHotelAvailRS {
          * 
          * 
          */
-        public List<OTAHotelAvailRS.RoomStays.RoomStay> getRoomStaies() {
-            if (roomStaies == null) {
-                roomStaies = new ArrayList<OTAHotelAvailRS.RoomStays.RoomStay>();
+        public List<OTAHotelAvailRS.RoomStays.RoomStay> getRoomStays() {
+            if (roomStays == null) {
+                roomStays = new ArrayList<OTAHotelAvailRS.RoomStays.RoomStay>();
             }
-            return this.roomStaies;
+            return this.roomStays;
         }
 
         /**

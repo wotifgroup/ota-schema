@@ -82,30 +82,30 @@ import javax.xml.bind.annotation.XmlType;
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "LengthsOfStayType", propOrder = {
-    "lengthOfStaies"
+    "lengthOfStays"
 })
 public class LengthsOfStayType {
 
     @XmlElement(name = "LengthOfStay")
-    protected List<LengthsOfStayType.LengthOfStay> lengthOfStaies;
+    protected List<LengthsOfStayType.LengthOfStay> lengthOfStays;
     @XmlAttribute(name = "ArrivalDateBased")
     protected Boolean arrivalDateBased;
     @XmlAttribute(name = "FixedPatternLength")
     protected Integer fixedPatternLength;
 
     /**
-     * Gets the value of the lengthOfStaies property.
+     * Gets the value of the lengthOfStays property.
      * 
      * <p>
      * This accessor method returns a reference to the live list,
      * not a snapshot. Therefore any modification you make to the
      * returned list will be present inside the JAXB object.
-     * This is why there is not a <CODE>set</CODE> method for the lengthOfStaies property.
+     * This is why there is not a <CODE>set</CODE> method for the lengthOfStays property.
      * 
      * <p>
      * For example, to add a new item, do as follows:
      * <pre>
-     *    getLengthOfStaies().add(newItem);
+     *    getLengthOfStays().add(newItem);
      * </pre>
      * 
      * 
@@ -115,11 +115,11 @@ public class LengthsOfStayType {
      * 
      * 
      */
-    public List<LengthsOfStayType.LengthOfStay> getLengthOfStaies() {
-        if (lengthOfStaies == null) {
-            lengthOfStaies = new ArrayList<LengthsOfStayType.LengthOfStay>();
+    public List<LengthsOfStayType.LengthOfStay> getLengthOfStays() {
+        if (lengthOfStays == null) {
+            lengthOfStays = new ArrayList<LengthsOfStayType.LengthOfStay>();
         }
-        return this.lengthOfStaies;
+        return this.lengthOfStays;
     }
 
     /**
