@@ -45,7 +45,7 @@ import javax.xml.datatype.XMLGregorianCalendar;
  * 
  * 
  */
-@XmlRootElement
+@XmlRootElement(name = "FeeType")
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "FeeType", propOrder = {
     "taxes",
