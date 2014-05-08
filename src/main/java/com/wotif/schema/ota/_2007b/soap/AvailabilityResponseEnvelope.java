@@ -25,6 +25,11 @@ public class AvailabilityResponseEnvelope {
     public AvailabilityResponseEnvelope() {
     }
 
+    public AvailabilityResponseEnvelope(Header header, AvailabilityResponseBody body) {
+        this.header = header;
+        this.body = body;
+    }
+
     public Header getHeader() {
         return header;
     }
@@ -34,7 +39,3 @@ public class AvailabilityResponseEnvelope {
     }
 
 }
-
-
-
-

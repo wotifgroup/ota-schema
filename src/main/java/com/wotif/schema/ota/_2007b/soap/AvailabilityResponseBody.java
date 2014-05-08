@@ -10,6 +10,13 @@ public class AvailabilityResponseBody {
     @XmlElement(name = "OTA_HotelAvailRS", namespace = "http://www.opentravel.org/OTA/2003/05")
     private OTAHotelAvailRS otaHotelAvailRS;
 
+    public AvailabilityResponseBody() {
+    }
+
+    public AvailabilityResponseBody(OTAHotelAvailRS otaHotelAvailRS) {
+        this.otaHotelAvailRS = otaHotelAvailRS;
+    }
+
     public OTAHotelAvailRS getOtaHotelAvailRS() {
         return otaHotelAvailRS;
     }
