@@ -10,7 +10,7 @@
     <groupId>com.wotif.schema</groupId>
     <artifactId>ota-schema</artifactId>
 
-    <version>2014.05.08</version>
+    <version>2014.05.09-SNAPSHOT</version>
 
     <packaging>jar</packaging>
     <name>OTA Schema</name>
@@ -22,7 +22,7 @@
         <connection>scm:git:ssh://git@wothub.core.wotifgroup.com/libraries/${project.artifactId}</connection>
         <developerConnection>scm:git:ssh://git@wothub.core.wotifgroup.com/libraries/${project.artifactId}</developerConnection>
         <url>https://wothub.core.wotifgroup.com/libraries/${project.artifactId}</url>
-      <tag>ota-schema-2014.05.08</tag>
+      <tag>ota-schema-2014.04.03</tag>
   </scm>
 
     <profiles>
