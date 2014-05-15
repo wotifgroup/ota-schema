@@ -10,6 +10,8 @@ public class ReservationResponseBody {
     @XmlElement(name = "OTA_HotelResRS", namespace = "http://www.opentravel.org/OTA/2003/05")
     private OTAHotelResRS otaHotelResRS;
 
+    public ReservationResponseBody(){}
+
     public ReservationResponseBody(OTAHotelResRS otaHotelResRS) {
         this.otaHotelResRS = otaHotelResRS;
     }

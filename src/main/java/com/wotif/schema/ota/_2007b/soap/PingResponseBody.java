@@ -10,6 +10,8 @@ public class PingResponseBody {
     @XmlElement(name = "OTA_PingRS", namespace = "http://www.opentravel.org/OTA/2003/05")
     private OTAPingRS otaPingRS;
 
+    public PingResponseBody(){}
+
     public PingResponseBody(OTAPingRS otaPingRS) {
         this.otaPingRS = otaPingRS;
     }
