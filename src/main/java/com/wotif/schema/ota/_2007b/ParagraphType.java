@@ -15,6 +15,7 @@ import javax.xml.bind.JAXBElement;
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlAttribute;
+import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlElementRef;
 import javax.xml.bind.annotation.XmlElementRefs;
 import javax.xml.bind.annotation.XmlSchemaType;
@@ -63,7 +64,7 @@ import javax.xml.datatype.XMLGregorianCalendar;
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "ParagraphType", propOrder = {
-    "textsAndImagesAndURLS"
+    "texts"
 })
 @XmlSeeAlso({
     com.wotif.schema.ota._2007b.SpecialRequestType.SpecialRequest.class,
@@ -74,13 +75,8 @@ import javax.xml.datatype.XMLGregorianCalendar;
 })
 public class ParagraphType {
 
-    @XmlElementRefs({
-        @XmlElementRef(name = "Text", namespace = "http://www.opentravel.org/OTA/2003/05", type = JAXBElement.class),
-        @XmlElementRef(name = "ListItem", namespace = "http://www.opentravel.org/OTA/2003/05", type = JAXBElement.class),
-        @XmlElementRef(name = "URL", namespace = "http://www.opentravel.org/OTA/2003/05", type = JAXBElement.class),
-        @XmlElementRef(name = "Image", namespace = "http://www.opentravel.org/OTA/2003/05", type = JAXBElement.class)
-    })
-    protected List<JAXBElement<?>> textsAndImagesAndURLS;
+    @XmlElement(name = "Text")
+    protected List<FormattedTextTextType> texts;
     @XmlAttribute(name = "Name")
     protected String name;
     @XmlAttribute(name = "ParagraphNumber")
@@ -105,18 +101,18 @@ public class ParagraphType {
     protected XMLGregorianCalendar purgeDate;
 
     /**
-     * Gets the value of the textsAndImagesAndURLS property.
+     * Gets the value of the texts property.
      * 
      * <p>
      * This accessor method returns a reference to the live list,
      * not a snapshot. Therefore any modification you make to the
      * returned list will be present inside the JAXB object.
-     * This is why there is not a <CODE>set</CODE> method for the textsAndImagesAndURLS property.
+     * This is why there is not a <CODE>set</CODE> method for the texts property.
      * 
      * <p>
      * For example, to add a new item, do as follows:
      * <pre>
-     *    getTextsAndImagesAndURLS().add(newItem);
+     *    getTexts().add(newItem);
      * </pre>
      * 
      * 
@@ -129,11 +125,11 @@ public class ParagraphType {
      * 
      * 
      */
-    public List<JAXBElement<?>> getTextsAndImagesAndURLS() {
-        if (textsAndImagesAndURLS == null) {
-            textsAndImagesAndURLS = new ArrayList<JAXBElement<?>>();
+    public List<FormattedTextTextType> getTexts() {
+        if (texts == null) {
+            texts = new ArrayList<>();
         }
-        return this.textsAndImagesAndURLS;
+        return this.texts;
     }
 
     /**
