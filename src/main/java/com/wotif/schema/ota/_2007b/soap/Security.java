@@ -5,7 +5,7 @@ import javax.xml.bind.annotation.XmlElement;
 public class Security {
 
     @XmlElement(name = "UsernameToken", namespace = "http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd")
-    public UsernameToken usernameToken;
+    private UsernameToken usernameToken;
 
     public Security() {
     }
