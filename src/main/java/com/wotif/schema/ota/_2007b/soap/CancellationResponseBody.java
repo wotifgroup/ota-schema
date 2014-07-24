@@ -2,7 +2,6 @@ package com.wotif.schema.ota._2007b.soap;
 
 
 import com.wotif.schema.ota._2007b.OTACancelRS;
-import com.wotif.schema.ota._2007b.OTAHotelAvailRS;
 
 import javax.xml.bind.annotation.XmlElement;
 
