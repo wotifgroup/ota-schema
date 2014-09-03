@@ -22,7 +22,7 @@
         <connection>scm:git:ssh://git@wothub.core.wotifgroup.com/libraries/${project.artifactId}</connection>
         <developerConnection>scm:git:ssh://git@wothub.core.wotifgroup.com/libraries/${project.artifactId}</developerConnection>
         <url>https://wothub.core.wotifgroup.com/libraries/${project.artifactId}</url>
-      <tag>ota-schema-2014.04.03</tag>
+        <tag>HEAD</tag>
   </scm>
 
     <profiles>
