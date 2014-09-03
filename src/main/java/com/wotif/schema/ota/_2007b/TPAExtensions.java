@@ -39,6 +39,7 @@ import javax.xml.bind.annotation.*;
     "items"
 })
 @XmlRootElement(name = "TPA_Extensions")
+@XmlSeeAlso({Marketing.class})
 public class TPAExtensions {
 
     @XmlAnyElement
